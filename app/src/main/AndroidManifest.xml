@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.valbermarcelino.pibic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".frmLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cadastro.frmCadastro" />
+        <activity android:name=".Cadastro.frmCadFisica" />
+        <activity android:name=".Cadastro.frmCadJuridica" />
+        <activity android:name=".frmTelaInicial" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InserirEvento"
+            android:label="@string/title_activity_inserir_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Alterar"
+            android:label="@string/title_activity_alterar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnviarEmail.Suporte"
+            android:label="@string/title_activity_suporte"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

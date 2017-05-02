@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VOLU</string>
+    <string name="title_activity_main">VOLU</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inserir_evento">Inserir Evento</string>
+    <string name="title_activity_alterar">Alterar</string>
+    <string name="title_activity_suporte">Suporte</string>
+
+    <string-array name = "porte">
+        <item>Pequeno Porte</item>
+        <item>Médio Porte</item>
+        <item>Grande Porte</item>
+    </string-array>
+</resources>
